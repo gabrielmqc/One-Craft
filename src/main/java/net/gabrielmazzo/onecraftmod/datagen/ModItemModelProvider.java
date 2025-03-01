@@ -20,7 +20,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.SAPPHIRE);
         simpleItem(ModItems.RAW_SAPPHIRE);
         simpleItem(ModItems.METAL_DETECTOR);
-        simpleItem(ModItems.GOMU_GOMU_NO_MI);
+
     }
 
     private ItemModelBuilder simpleItem(RegistryObject<Item> item) {
