@@ -18,7 +18,12 @@ public class ModCreativeModTabs {
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(ModItems.SAPPHIRE.get());
                         pOutput.accept(ModItems.RAW_SAPPHIRE.get());
+                        pOutput.accept(ModBlocks.SAPPHIRE_BLOCK.get().asItem());
+                        pOutput.accept(ModBlocks.RAW_SAPPHIRE_BLOCK.get().asItem());
+                        pOutput.accept(ModBlocks.SAPPHIRE_ORE.get().asItem());
                         pOutput.accept(ModItems.GOMU_GOMU_NO_MI.get());
+                        pOutput.accept(ModItems.METAL_DETECTOR.get());
+                        pOutput.accept(ModBlocks.SOUND_BLOCK.get().asItem());
                     })
                     .build());
 

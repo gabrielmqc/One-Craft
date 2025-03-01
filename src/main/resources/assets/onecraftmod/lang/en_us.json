@@ -2,5 +2,15 @@
   "item.onecraftmod.sapphire": "Sapphire",
   "item.onecraftmod.raw_sapphire": "Raw Sapphire",
   "item.onecraftmod.gomu_gomu_no_mi": "Gomu Gomu no Mi",
+  "block.onecraftmod.sapphire_block": "Block of Sapphire",
+  "block.onecraftmod.raw_sapphire_block": "Block of Raw Sapphire",
+  "block.onecraftmod.sapphire_ore": "Sapphire Ore",
+  "block.onecraftmod.sound_block": "Sound Block",
+
+  "item.tutorialmod.metal_detector": "Metal Detector",
+  "item.onecraftmod.raw_sapphire.tooltip": "Almost shinny ass fucker",
+
+
+
   "creativetab.tutorial_tab" : "Sapphire Tab"
 }
