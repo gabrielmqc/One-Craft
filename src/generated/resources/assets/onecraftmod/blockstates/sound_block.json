@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "onecraftmod:block/sound_block"
+    }
+  }
+}

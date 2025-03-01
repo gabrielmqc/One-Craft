@@ -1,0 +1,5 @@
+// 1.20.1	2025-03-01T17:12:57.2009641	Loot Tables
+d9057c0fd4fcd531711b4d19d1cc355bd8585039 data/onecraftmod/loot_tables/blocks/raw_sapphire_block.json
+0fae2e041c3f43123aa1ab9a0c269cb1257ab923 data/onecraftmod/loot_tables/blocks/sapphire_block.json
+ca46d0cd923d1ee121c773f70b2c55ec3499f513 data/onecraftmod/loot_tables/blocks/sapphire_ore.json
+271f580e8c1080dbbc2171625593afa50a7bad3b data/onecraftmod/loot_tables/blocks/sound_block.json

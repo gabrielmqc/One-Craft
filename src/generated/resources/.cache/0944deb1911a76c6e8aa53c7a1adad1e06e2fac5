@@ -1,0 +1,13 @@
+// 1.20.1	2025-03-01T17:12:57.198965	Block States: onecraftmod
+f71d2addcbaf606a2308c03f4559d3e570e2327f assets/onecraftmod/blockstates/raw_sapphire_block.json
+829816f4e4d96656ab74e59d3ecaeba690b6d6b3 assets/onecraftmod/blockstates/sapphire_block.json
+c5fd44b05807d3cba03d5c50b6bd13a3296f74e4 assets/onecraftmod/blockstates/sapphire_ore.json
+c1b75e4ea9ebc27d97ecd62e2758c00417818784 assets/onecraftmod/blockstates/sound_block.json
+792b65373acf0e3b5899d0d70c2c69ffd1253d78 assets/onecraftmod/models/block/raw_sapphire_block.json
+15853421f7aeff0a5c711fedb4dc2c69fe0f39f1 assets/onecraftmod/models/block/sapphire_block.json
+64999ed14a564f3c2b64063538273564822f522e assets/onecraftmod/models/block/sapphire_ore.json
+230a1e296bdccece623aaaca2b8e4c675e694a3a assets/onecraftmod/models/block/sound_block.json
+e232ed7918317012273fed33f515cbaac61afc2e assets/onecraftmod/models/item/raw_sapphire_block.json
+002979e45d8ff53af65222186b64aa15fd18be5d assets/onecraftmod/models/item/sapphire_block.json
+087a28965369181039ed2fbd0fa3058d5fd7a07a assets/onecraftmod/models/item/sapphire_ore.json
+95814503d94585f546509e02977e1e4183c3906e assets/onecraftmod/models/item/sound_block.json
