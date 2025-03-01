@@ -22,6 +22,9 @@ public class ModItems {
 
     public static final RegistryObject<Item> GOMU_GOMU_NO_MI = ITEMS.register("gomu_gomu_no_mi",
             () -> new Item(new Item.Properties().food(GomuGomuNoMiFood.GOMU_GOMU_NO_MI)));
+
+    public static final RegistryObject<Item> SAPPHIRE_STAFF = ITEMS.register("sapphire_staff", SapphireItem::create);
+
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }

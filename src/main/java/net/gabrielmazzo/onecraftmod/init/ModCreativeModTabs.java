@@ -24,6 +24,7 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.GOMU_GOMU_NO_MI.get());
                         pOutput.accept(ModItems.METAL_DETECTOR.get());
                         pOutput.accept(ModBlocks.SOUND_BLOCK.get().asItem());
+                        pOutput.accept(ModItems.SAPPHIRE_STAFF.get());
                     })
                     .build());
 

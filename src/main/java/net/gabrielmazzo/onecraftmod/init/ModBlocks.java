@@ -21,7 +21,7 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> SAPPHIRE_BLOCK = registerBlock("sapphire_block", SapphireBlock::create);
     public static final RegistryObject<Block> RAW_SAPPHIRE_BLOCK = registerBlock("raw_sapphire_block", RawSapphireBlock::create);
-    public static final RegistryObject<DropExperienceBlock> SAPPHIRE_ORE = registerBlock("sapphire_ore", SapphireOreBlock::create);
+    public static final RegistryObject<Block> SAPPHIRE_ORE = registerBlock("sapphire_ore", SapphireOreBlock::create);
     public static final RegistryObject<Block> SOUND_BLOCK = registerBlock("sound_block", SoundBlock::create);
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
