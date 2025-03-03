@@ -3,6 +3,11 @@ package net.gabrielmazzo.onecraftmod.init;
 import net.gabrielmazzo.onecraftmod.OneCraftMod;
 import net.gabrielmazzo.onecraftmod.foods.GomuGomuNoMiFood;
 import net.gabrielmazzo.onecraftmod.items.*;
+import net.gabrielmazzo.onecraftmod.items.armors.SapphireBootsItem;
+import net.gabrielmazzo.onecraftmod.items.armors.SapphireChestPlateItem;
+import net.gabrielmazzo.onecraftmod.items.armors.SapphireHelmetItem;
+import net.gabrielmazzo.onecraftmod.items.armors.SapphireLeggingsItem;
+import net.gabrielmazzo.onecraftmod.items.tools.*;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -26,6 +31,10 @@ public class ModItems {
     public static final RegistryObject<Item> SAPPHIRE_AXE = ITEMS.register("sapphire_axe", SapphireAxeItem::create);
     public static final RegistryObject<Item> SAPPHIRE_SHOVEL = ITEMS.register("sapphire_shovel", SapphireShovelItem::create);
     public static final RegistryObject<Item> SAPPHIRE_HOE = ITEMS.register("sapphire_hoe", SapphireHoeItem::create);
+    public static final RegistryObject<Item> SAPPHIRE_HELMET = ITEMS.register("sapphire_helmet", SapphireHelmetItem ::create);
+    public static final RegistryObject<Item> SAPPHIRE_CHESTPLATE = ITEMS.register("sapphire_chestplate", SapphireChestPlateItem::create);
+    public static final RegistryObject<Item> SAPPHIRE_LEGGINGS = ITEMS.register("sapphire_leggings", SapphireLeggingsItem::create);
+    public static final RegistryObject<Item> SAPPHIRE_BOOTS = ITEMS.register("sapphire_boots", SapphireBootsItem::create);
 
     public static final RegistryObject<Item> SAPPHIRE_STAFF = ITEMS.register("sapphire_staff", SapphireItem::create);
 

@@ -1,9 +1,8 @@
-package net.gabrielmazzo.onecraftmod.items;
+package net.gabrielmazzo.onecraftmod.items.tools;
 
 import net.gabrielmazzo.onecraftmod.init.ModToolsTiers;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.PickaxeItem;
-import net.minecraft.world.item.SwordItem;
 
 public class SapphirePickaxeItem {
 
