@@ -1,4 +1,4 @@
-package net.gabrielmazzo.onecraftmod.datagen.loot;
+package net.gabrielmazzo.onecraftmod.datagen;
 
 import net.gabrielmazzo.onecraftmod.OneCraftMod;
 import net.gabrielmazzo.onecraftmod.init.ModItems;

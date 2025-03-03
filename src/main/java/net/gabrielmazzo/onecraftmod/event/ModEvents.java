@@ -2,6 +2,7 @@ package net.gabrielmazzo.onecraftmod.event;
 
 import it.unimi.dsi.fastutil.ints.Int2ObjectMap;
 import net.gabrielmazzo.onecraftmod.OneCraftMod;
+import net.gabrielmazzo.onecraftmod.init.ModBlocks;
 import net.gabrielmazzo.onecraftmod.init.ModItems;
 import net.minecraft.world.entity.npc.VillagerProfession;
 import net.minecraft.world.entity.npc.VillagerTrades;
@@ -24,8 +25,8 @@ public class ModEvents {
     @SubscribeEvent
     public static void addCustomTrades(VillagerTradesEvent event) {
 
-        if(event.getType() == VillagerProfession.FARMER) {
-            Int2ObjectMap<List< VillagerTrades.ItemListing>> trades = event.getTrades();
+        if (event.getType() == VillagerProfession.FARMER) {
+            Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = event.getTrades();
 
             trades.get(1).add((pTrader, pRandom) -> new MerchantOffer(
                     new ItemStack(Items.DIRT, 1),
@@ -36,7 +37,7 @@ public class ModEvents {
             ));
         }
 
-        if(event.getType() == VillagerProfession.LIBRARIAN) {
+        if (event.getType() == VillagerProfession.LIBRARIAN) {
             Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = event.getTrades();
             ItemStack enchantedBook = EnchantedBookItem.createForEnchantment(new EnchantmentInstance(Enchantments.THORNS, 2));
 
@@ -46,7 +47,9 @@ public class ModEvents {
                     enchantedBook,
                     2, 8, 0.02f));
         }
+
     }
+
     @SubscribeEvent
     public static void addCustomWanderingTrades(WandererTradesEvent event) {
         List<VillagerTrades.ItemListing> genericTrades = event.getGenericTrades();
