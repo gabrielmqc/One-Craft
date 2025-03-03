@@ -28,6 +28,7 @@ public class ModItems {
 
     public static final RegistryObject<Item> SAPPHIRE_PICKAXE = ITEMS.register("sapphire_pickaxe", SapphirePickaxeItem::create);
     public static final RegistryObject<Item> SAPPHIRE_SWORD = ITEMS.register("sapphire_sword", SapphireSwordItem::create);
+    public static final RegistryObject<Item> GRYPHON_SWORD = ITEMS.register("gryphon_sword", GryphonSwordItem::create);
     public static final RegistryObject<Item> SAPPHIRE_AXE = ITEMS.register("sapphire_axe", SapphireAxeItem::create);
     public static final RegistryObject<Item> SAPPHIRE_SHOVEL = ITEMS.register("sapphire_shovel", SapphireShovelItem::create);
     public static final RegistryObject<Item> SAPPHIRE_HOE = ITEMS.register("sapphire_hoe", SapphireHoeItem::create);
@@ -35,7 +36,6 @@ public class ModItems {
     public static final RegistryObject<Item> SAPPHIRE_CHESTPLATE = ITEMS.register("sapphire_chestplate", SapphireChestPlateItem::create);
     public static final RegistryObject<Item> SAPPHIRE_LEGGINGS = ITEMS.register("sapphire_leggings", SapphireLeggingsItem::create);
     public static final RegistryObject<Item> SAPPHIRE_BOOTS = ITEMS.register("sapphire_boots", SapphireBootsItem::create);
-
     public static final RegistryObject<Item> SAPPHIRE_STAFF = ITEMS.register("sapphire_staff", SapphireItem::create);
 
     public static void register(IEventBus eventBus) {

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "onecraftmod:item/gryphon_sword"
+  }
+}
