@@ -4,6 +4,7 @@ import com.mojang.logging.LogUtils;
 import net.gabrielmazzo.onecraftmod.init.ModBlocks;
 import net.gabrielmazzo.onecraftmod.init.ModCreativeModTabs;
 import net.gabrielmazzo.onecraftmod.init.ModItems;
+import net.gabrielmazzo.onecraftmod.loot.ModLootModifiers;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -30,6 +31,8 @@ public class OneCraftMod
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+        ModLootModifiers.register(modEventBus);
+
 
         modEventBus.addListener(this::commonSetup);
 

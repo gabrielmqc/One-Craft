@@ -1,0 +1,10 @@
+{
+  "type": "onecraftmod:add_item",
+  "conditions": [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "minecraft:entities/creeper"
+    }
+  ],
+  "item": "onecraftmod:gomu_gomu_no_mi"
+}

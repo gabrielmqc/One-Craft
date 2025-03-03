@@ -1,0 +1,5 @@
+// 1.20.1	2025-03-02T23:35:54.2605152	Global Loot Modifiers : onecraftmod
+54afc9b094a4a5fe3d9dcfded57162e11e88b358 data/forge/loot_modifiers/global_loot_modifiers.json
+67ddb16a510b4b83c52f0aa54857c110b92f6dc0 data/onecraftmod/loot_modifiers/gomu_gomu_no_mi.json
+30495d7ed272bb1f94f4d8c24f72a414c71286ca data/onecraftmod/loot_modifiers/metal_detector_from_jungle_temples.json
+a47c7ad90bc06c9411e7403b7b229b3fd3cb7e99 data/onecraftmod/loot_modifiers/sapphire_sword.json
