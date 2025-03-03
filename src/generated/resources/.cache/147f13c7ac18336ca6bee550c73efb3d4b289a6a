@@ -1,4 +1,9 @@
-// 1.20.1	2025-03-01T19:00:59.5588495	Item Models: onecraftmod
+// 1.20.1	2025-03-02T21:15:17.9007343	Item Models: onecraftmod
 3059b46c64145685cf4915fab66f9322b12f2d06 assets/onecraftmod/models/item/metal_detector.json
 45ec74a32eacee5c4b676996cde87613990de7a1 assets/onecraftmod/models/item/raw_sapphire.json
 d2b9b6205e96f22d35dd9a5d323b25e7e6b43cfc assets/onecraftmod/models/item/sapphire.json
+3ff929a0eb997ceaad69244c5a36cc36a53d5c35 assets/onecraftmod/models/item/sapphire_axe.json
+3be359973fc17cb6ebdc2c7e1a0a1d977abe0d70 assets/onecraftmod/models/item/sapphire_hoe.json
+0796acbfaa544c93bb2d7712b2e54f95bb53b06d assets/onecraftmod/models/item/sapphire_pickaxe.json
+8c0717c82330789f1f214cd103f3dd17e1a7c4e7 assets/onecraftmod/models/item/sapphire_shovel.json
+3648ee98f7c78868fb1867cd8040cc6c50230214 assets/onecraftmod/models/item/sapphire_sword.json

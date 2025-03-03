@@ -20,24 +20,18 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
 
     @Override
     protected void addTags(HolderLookup.Provider provider) {
-        this.tag(ModTags.Blocks.METAL_DETECTOR_VALUABLES)
-                .add(ModBlocks.SOUND_BLOCK.get()).addTag(Tags.Blocks.ORES);
-        this.tag(BlockTags.MINEABLE_WITH_PICKAXE)
-                .add(ModBlocks.SAPPHIRE_BLOCK.get(),
-                        ModBlocks.RAW_SAPPHIRE_BLOCK.get(),
-                        ModBlocks.SAPPHIRE_ORE.get(),
-                        ModBlocks.SOUND_BLOCK.get());
+        this.tag(ModTags.Blocks.METAL_DETECTOR_VALUABLES).add(ModBlocks.SOUND_BLOCK.get()).addTag(Tags.Blocks.ORES);
+        this.tag(BlockTags.MINEABLE_WITH_PICKAXE).add(ModBlocks.SAPPHIRE_BLOCK.get(), ModBlocks.RAW_SAPPHIRE_BLOCK.get(), ModBlocks.SAPPHIRE_ORE.get(), ModBlocks.SOUND_BLOCK.get());
 
 
-        this.tag(BlockTags.NEEDS_IRON_TOOL)
-                .add(ModBlocks.SAPPHIRE_BLOCK.get());
+        this.tag(BlockTags.NEEDS_IRON_TOOL).add(ModBlocks.SAPPHIRE_BLOCK.get());
 
-        this.tag(BlockTags.NEEDS_DIAMOND_TOOL)
-                .add(ModBlocks.RAW_SAPPHIRE_BLOCK.get());
+        this.tag(BlockTags.NEEDS_DIAMOND_TOOL).add(ModBlocks.RAW_SAPPHIRE_BLOCK.get());
 
         this.tag(BlockTags.NEEDS_STONE_TOOL);
 
 
         this.tag(Tags.Blocks.NEEDS_NETHERITE_TOOL);
+        this.tag(ModTags.Blocks.NEEDS_SAPPHIRE_TOOL).add(ModBlocks.SOUND_BLOCK.get());
     }
 }

@@ -2,9 +2,7 @@ package net.gabrielmazzo.onecraftmod.init;
 
 import net.gabrielmazzo.onecraftmod.OneCraftMod;
 import net.gabrielmazzo.onecraftmod.foods.GomuGomuNoMiFood;
-import net.gabrielmazzo.onecraftmod.items.MetalDetectorItem;
-import net.gabrielmazzo.onecraftmod.items.RawSapphireItem;
-import net.gabrielmazzo.onecraftmod.items.SapphireItem;
+import net.gabrielmazzo.onecraftmod.items.*;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -22,6 +20,12 @@ public class ModItems {
 
     public static final RegistryObject<Item> GOMU_GOMU_NO_MI = ITEMS.register("gomu_gomu_no_mi",
             () -> new Item(new Item.Properties().food(GomuGomuNoMiFood.GOMU_GOMU_NO_MI)));
+
+    public static final RegistryObject<Item> SAPPHIRE_PICKAXE = ITEMS.register("sapphire_pickaxe", SapphirePickaxeItem::create);
+    public static final RegistryObject<Item> SAPPHIRE_SWORD = ITEMS.register("sapphire_sword", SapphireSwordItem::create);
+    public static final RegistryObject<Item> SAPPHIRE_AXE = ITEMS.register("sapphire_axe", SapphireAxeItem::create);
+    public static final RegistryObject<Item> SAPPHIRE_SHOVEL = ITEMS.register("sapphire_shovel", SapphireShovelItem::create);
+    public static final RegistryObject<Item> SAPPHIRE_HOE = ITEMS.register("sapphire_hoe", SapphireHoeItem::create);
 
     public static final RegistryObject<Item> SAPPHIRE_STAFF = ITEMS.register("sapphire_staff", SapphireItem::create);
 

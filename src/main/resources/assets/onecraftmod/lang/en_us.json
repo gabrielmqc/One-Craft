@@ -6,7 +6,13 @@
   "block.onecraftmod.raw_sapphire_block": "Block of Raw Sapphire",
   "block.onecraftmod.sapphire_ore": "Sapphire Ore",
   "block.onecraftmod.sound_block": "Sound Block",
+
   "item.onecraftmod.sapphire_staff": "Sapphire Staff",
+  "item.onecraftmod.sapphire_sword": "Sapphire Sword",
+  "item.onecraftmod.sapphire_pickaxe": "Sapphire Pickaxe",
+  "item.onecraftmod.sapphire_axe": "Sapphire Axe",
+  "item.onecraftmod.sapphire_shovel": "Sapphire Shovel",
+  "item.onecraftmod.sapphire_hoe": "Sapphire Hoe",
 
   "item.onecraftmod.metal_detector": "Metal Detector",
   "item.onecraftmod.raw_sapphire.tooltip": "Almost shinny ass fucker",
